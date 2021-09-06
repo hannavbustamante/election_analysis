@@ -55,11 +55,11 @@ Diana DeGette won the election. She received 272,892 votes, 73.8% of the total v
 
 Screenshot from the terminal after running program:
 
-![Candidate Vote Breakdown](https://user-images.githubusercontent.com/88729583/132149725-4bcec9eb-df87-4ca8-affb-d920f68083e0.PNG)
+![Winning Candidate](https://user-images.githubusercontent.com/88729583/132251510-72cc2240-0dae-4ae9-be9b-c7a63dcb354a.PNG)
 
 ## Election-Audit Summary
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+### In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
 Original code:
 ```
@@ -147,7 +147,7 @@ with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
 ```
 
-With this modification, the user can use any election file that is formatted the same way as the election_results.csv file and locted in the "Resources" folder. The program asks the user what file they would like to read from, and the file_to_load variable takes this input. To go even further, I would in the future want to create a way to read a file from any file path, not just files located in the Resources folder.
+With this modification, the user can use any election file that is formatted the same way as the election_results.csv file and located in the "Resources" folder. The program asks the user what file they would like to read from, and the file_to_load variable takes this input. To go even further, I would in the future want to create a way to read a file from any file path, not just files located in the Resources folder.
 
 
 
